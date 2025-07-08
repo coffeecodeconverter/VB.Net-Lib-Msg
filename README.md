@@ -100,6 +100,13 @@ newDialog.Box("Hello World", "Title", "Example Heading", "this is a footer messa
 ```
 
 
+##  🧪 Using an Icon (because this class uses image instead of icon, ive provided a function to convert it first)
+```vb.net
+Dim msg1 As New Msg
+Dim tempIcon As Image = msg1.GetMsgIcon(Msg.MsgIcon.Question)
+Dim result As Msg.DialogResultCustom = msg1.Box("Quit?", "Quit Application?", "Confirm:", "", Msg.ButtonOptions.YesNo, tempIcon, Nothing, Msg.DefaultButton.No)
+```
+
 ## 🧪 Advanced Usage
 
 ```vb.net
