@@ -50,9 +50,41 @@ The built-in `.NET MessageBox` is limiting when you need to go beyond displaying
 
 
 ## 🧪 Installation
-Unzip the Project 
-Copy the "msg" class file into your project 
+1. Unzip the project
 
+2. in your own project, create a new Form, call it EXACTLY "Msg" (so "Msg.vb" in full)
+Set the forms inital size to 380,190
+
+4. in a seperate visual studio instance, open the VB.NET-Lib-Msg solution, select everything on the Msg Form, and paste it into your project's recreation of "Msg"
+(it all fits as long as you initlaly set the empty forms size to 380, 190)
+
+5. Edit the Msg form in Your project
+
+6. edit the form in the VB.NET-Lib-Msg project, copy the whole lot and paste into yours
+
+7. go through your recreation of Msg's forms properties and set:
+   - backColour = white
+   - FormBorderStyle = FixedSingle
+   - maximumSize = 800,600
+   - maximizeBox = false
+   - MinimumSize = 300, 160
+   - ShowIcon = False
+   - StartPosition = CenterToScreen
+   - Text = ""
+  
+8. in the "msg" class, find this part:
+       Public Shared Sub LoadMsgIconImages()
+        Dim assembly As Assembly = Assembly.GetExecutingAssembly()
+        Dim baseNamespace As String = "Msg."
+
+and edit the baseNameSpace: <br>
+![image](https://github.com/user-attachments/assets/9519e5ad-d4c7-4a98-a4dd-d820c69d1bc8)
+
+to match YOUR applications rootname space: <br>
+![image](https://github.com/user-attachments/assets/4bc747aa-24e4-44db-94a1-b42e68f9fa91)
+(for the icons to work as theyre embedded resources) 
+<br>
+<br>
 
 ## 🧪 Demonstration 
 The Zip is the whole project, including a Demo utility that gives you an interactive way of playing with all the arguments
