@@ -1,5 +1,7 @@
 # VB.Net-Lib-Msg
-A **fully customizable dialog box** for .NET Framework 4.5.1+ intended as a complete replacement for `MessageBox.Show()`. This project removes the limitations of the traditional `System.Windows.Forms.MessageBox`, offering rich content support, extended features, modern styling, and total flexibility.
+...Let me do, what Microsoft failed to do...for decades... 
+
+Give you a **fully customizable dialog box** for .NET Framework 4.5.1+ intended as a complete replacement for `MessageBox.Show()`. This project removes the limitations of the traditional `System.Windows.Forms.MessageBox`, offering rich content support, extended features, modern styling, and total flexibility.
 
 ---
 
