@@ -181,4 +181,7 @@ include a screenshot  <br>
 ![image](https://github.com/user-attachments/assets/9bbebdeb-c805-4c5b-87cb-4f0a2bd3d31b)
 
 
+Long Message - Not truncated, has auto-scroll bars <br>
+<br>
+![image](https://github.com/user-attachments/assets/4303484b-d405-4757-9710-acb76fb3832a)
 
