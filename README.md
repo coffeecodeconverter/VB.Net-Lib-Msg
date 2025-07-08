@@ -113,7 +113,7 @@ screenshot example: <br>
 
 
 ##  🧪 Using it for an Error Dialog - where ex.message is main message, and stackTrace is the footer
-(eexample below forces an error to demonstrate)
+(example below forces an error to demonstrate)
 ```vb.net
         Try
             Dim tempInt As Integer = 0
