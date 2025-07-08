@@ -110,6 +110,24 @@ screenshot example: <br>
 ![image](https://github.com/user-attachments/assets/4faa81b6-9d1d-4e7a-b0a1-1bbc7e325425)
 
 
+##  🧪 Using it for an Error Dialog - where ex.message is main message, and stackTrace is the footer
+(eexample below forces an error to demonstrate)
+```vb.net
+        Try
+            Dim tempInt As Integer = 0
+            Dim tempString As String = "zero"
+            tempInt = tempString
+        Catch ex As Exception
+            Dim newFormInstance As New Msg
+            Dim tempIcon As Image = newFormInstance.GetMsgIcon(Msg.MsgIcon.ErrorRed)
+            newFormInstance.Box(ex.Message, "Error Getting Icon", "Error getting Icon from 'MsgIconImages' Dictionary:", ex.StackTrace, Msg.ButtonOptions.OK, tempIcon, Nothing, Msg.DefaultButton.OK, newFormInstance.customMsgTheme, Nothing, Nothing)
+        End Try
+```
+screenshot example: <br>
+![image](https://github.com/user-attachments/assets/530aab9c-937d-49a5-81db-4e0a55c2f18b)
+
+
+
 ## 🧪 Advanced Usage
 
 ```vb.net
