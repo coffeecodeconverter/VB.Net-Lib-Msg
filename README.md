@@ -67,4 +67,47 @@ Box(
     Height As Integer,
     Layout As MsgLayout
 ) As DialogResultCustom
+```
+
+
+## 🧪 Basic Usage
+
+```vb.net
+Dim newDialog As New Msg
+newDialog.Box("Hello World")
+```
+
+
+## 🧪  Similar Usage compare to Messagebox.Show():
+
+```vb.net
+Dim newDialog As New Msg
+newDialog.Box("Hello World", "Title", "Example Heading", "this is a footer message", MsgButtons.OK, MsgIcons.Information)
+```
+
+
+## 🧪 Advanced Usage
+
+```vb.net
+Dim newDialog As New Msg
+
+customTheme = New Msg.MessageBoxTheme With {
+        .BackColor = Color.White,
+        .FontColor = Color.Black,
+        .FooterColor = Color.Gray,
+        .ButtonColor = Color.LightGray,
+        .ButtonFontColor = Color.Black,
+        .ButtonStyle = FlatStyle.Standard
+    }
+
+newDialog.Box("Hello World",
+              "Title",
+              "Example Heading",
+              "this is a footer message",
+              MsgButtons.OK,
+              MsgIcons.Information,
+              picture.image,
+              defaultButton.OK,
+              customTheme)
+```
 
