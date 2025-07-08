@@ -106,6 +106,9 @@ Dim msg1 As New Msg
 Dim tempIcon As Image = msg1.GetMsgIcon(Msg.MsgIcon.Question)
 Dim result As Msg.DialogResultCustom = msg1.Box("Quit?", "Quit Application?", "Confirm:", "", Msg.ButtonOptions.YesNo, tempIcon, Nothing, Msg.DefaultButton.No)
 ```
+screenshot example: <br>
+![image](https://github.com/user-attachments/assets/4faa81b6-9d1d-4e7a-b0a1-1bbc7e325425)
+
 
 ## 🧪 Advanced Usage
 
