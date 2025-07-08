@@ -60,7 +60,7 @@ Set the forms inital size to 380,190
 
 5. Edit the Msg form in Your project
 
-6. edit the form in the VB.NET-Lib-Msg project, copy the whole lot and paste into yours
+6. edit the Msg form in the VB.NET-Lib-Msg project, copy the whole Class and paste into yours overwriting your empty Msg class
 
 7. go through your recreation of Msg's forms properties and set: <br>
    - backColour = white 
@@ -82,7 +82,7 @@ and edit the baseNameSpace: <br>
 ![image](https://github.com/user-attachments/assets/9519e5ad-d4c7-4a98-a4dd-d820c69d1bc8)
 
 to match YOUR applications rootname space: <br>
-![image](https://github.com/user-attachments/assets/4bc747aa-24e4-44db-94a1-b42e68f9fa91)
+![image](https://github.com/user-attachments/assets/4bc747aa-24e4-44db-94a1-b42e68f9fa91) <br>
 (for the icons to work as theyre embedded resources) 
 <br>
 <br>
