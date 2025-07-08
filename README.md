@@ -52,18 +52,18 @@ The built-in `.NET MessageBox` is limiting when you need to go beyond displaying
 ## 🧪 Installation
 1. Unzip the project
 
-2. in your own project, create a new Form, call it EXACTLY "Msg" (so "Msg.vb" in full)
+2. in your own project, create a new Form, call it EXACTLY "Msg" (so "Msg.vb" in full) <Br>
 Set the forms inital size to 380,190
 
-4. in a seperate visual studio instance, open the VB.NET-Lib-Msg solution, select everything on the Msg Form, and paste it into your project's recreation of "Msg"
+4. in a seperate visual studio instance, open the VB.NET-Lib-Msg solution, select everything on the Msg Form, and paste it into your project's recreation of "Msg" <br>
 (it all fits as long as you initlaly set the empty forms size to 380, 190)
 
 5. Edit the Msg form in Your project
 
 6. edit the form in the VB.NET-Lib-Msg project, copy the whole lot and paste into yours
 
-7. go through your recreation of Msg's forms properties and set:
-   - backColour = white
+7. go through your recreation of Msg's forms properties and set: <br>
+   - backColour = white 
    - FormBorderStyle = FixedSingle
    - maximumSize = 800,600
    - maximizeBox = false
@@ -72,11 +72,12 @@ Set the forms inital size to 380,190
    - StartPosition = CenterToScreen
    - Text = ""
   
-8. in the "msg" class, find this part:
+8. in the "msg" class, find this part: <br>
+```vb.net
        Public Shared Sub LoadMsgIconImages()
         Dim assembly As Assembly = Assembly.GetExecutingAssembly()
         Dim baseNamespace As String = "Msg."
-
+```
 and edit the baseNameSpace: <br>
 ![image](https://github.com/user-attachments/assets/9519e5ad-d4c7-4a98-a4dd-d820c69d1bc8)
 
