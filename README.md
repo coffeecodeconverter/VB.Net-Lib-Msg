@@ -82,7 +82,9 @@ Box(
     Layout As MsgLayout
 ) As DialogResultCustom
 ```
-
+<Br>
+<Br>
+<Br>
 
 ## 🧪 Basic Usage
 
@@ -124,7 +126,8 @@ screenshot example: <br>
         End Try
 ```
 screenshot example: <br>
-![image](https://github.com/user-attachments/assets/530aab9c-937d-49a5-81db-4e0a55c2f18b)
+![image](https://github.com/user-attachments/assets/752127b0-ab90-46c5-aa05-ab4d76b90781)
+
 
 
 
@@ -153,6 +156,9 @@ newDialog.Box("Hello World",
               customTheme)
 ```
 
+<Br>
+<Br>
+<br>
 
 ## 🧪 Examples 
 
