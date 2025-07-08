@@ -126,47 +126,58 @@ newDialog.Box("Hello World",
 
 ## 🧪 Examples 
 
-Just a String "Test Message" 
+Just a String "Test Message" <br>
+<br>
 ![image](https://github.com/user-attachments/assets/43810655-d835-4095-a51a-409e28c2b609)
 
 
-String With Icon 
+String With Icon <br>
+<br>
 ![image](https://github.com/user-attachments/assets/6ec11b0e-b50e-4054-a177-8a9a4f4d4d81)
 
 
-String, With Heading and Icon 
+String, With Heading and Icon <Br>
+<br>
 ![image](https://github.com/user-attachments/assets/8e045bc8-0d57-43c1-9b90-055b505f9c17)
 
 
-specific icon for confirmation - more clear 
+specific icon for confirmation - more clear <br>
+<br>
 ![image](https://github.com/user-attachments/assets/232f8c51-658b-4905-9fed-e4f67daccf5d)
 
 
-Different Colour for Question (rather than reusing the same as 'information')
+Different Colour for Question (rather than reusing the same as 'information') <Br>
+<br>
 ![image](https://github.com/user-attachments/assets/f5fbc84b-59bb-4e1d-b532-f4a9be8c00f3)
 
 
-countdown with timed message
+countdown with timed message <br>
+<br>
 ![image](https://github.com/user-attachments/assets/31d24116-4f8f-4d50-b4b8-c594a1580ace)
 
 
-Help button - with custom function assigned 
+Help button - with custom function assigned  <br>
+<br>
 ![image](https://github.com/user-attachments/assets/10aa04df-0ec5-4b1b-91ef-550bf9717ecc)
 
 
-Supports Richtext
+Supports Richtext <br>
+<br>
 ![image](https://github.com/user-attachments/assets/b43e1c0a-d8b6-48cd-a53c-c3db93b1a25b)
 
 
-Optional Footer
+Optional Footer <br>
+<br>
 ![image](https://github.com/user-attachments/assets/4ca5fcc3-d2b6-43cd-868b-6c8c7758fe93)
 
 
-customizable themes (bakc colour, font colour, button colour, button font colour, and button style)
+customizable themes (bakc colour, font colour, button colour, button font colour, and button style) <br>
+<br>
 ![image](https://github.com/user-attachments/assets/a8424ba4-bc6c-401d-bf65-8be04ab62b12)
 
 
-include a screenshot 
+include a screenshot  <br>
+<Br>
 ![image](https://github.com/user-attachments/assets/9bbebdeb-c805-4c5b-87cb-4f0a2bd3d31b)
 
 
