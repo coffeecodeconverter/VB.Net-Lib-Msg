@@ -171,7 +171,7 @@ Optional Footer <br>
 ![image](https://github.com/user-attachments/assets/4ca5fcc3-d2b6-43cd-868b-6c8c7758fe93)
 
 
-customizable themes (bakc colour, font colour, button colour, button font colour, and button style) <br>
+customizable themes (back colour, font colour, button colour, button font colour, and button style) <br>
 <br>
 ![image](https://github.com/user-attachments/assets/a8424ba4-bc6c-401d-bf65-8be04ab62b12)
 
