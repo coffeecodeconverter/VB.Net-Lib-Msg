@@ -131,7 +131,7 @@ newDialog.Box("Hello World")
 
 ```vb.net
 Dim newDialog As New Msg
-newDialog.Box("Hello World", "Title", "Example Heading", "this is a footer message", MsgButtons.OK, MsgIcons.Information)
+newDialog.Box("Hello World", "Title", "Example Heading", "this is a footer message", Msg.ButtonOptions.OK, msg.GetMsgIcon(Msg.MsgIcon.Question))
 ```
 
 
